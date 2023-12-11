@@ -5,13 +5,13 @@ class Fruit {
 
   Fruit({this.name, this.color, this.price});
 }
-void applyPriceDiscount(List<Fruit> fruits){
+void applyPriceDiscount(List<Fruit> fruits,dis){
   double ?price;
   double ?temp;
   for (int i = 0; i < fruits.length; i++) {
     Fruit fruit = fruits[i];
     price = fruit.price?? 0.0;
-    temp = price - price*10/100;
+    temp = price - price*dis/100;
     fruit.price = temp;
   }
 }
@@ -30,6 +30,6 @@ void main() {
   print("Original Fruit Details before Discount:");
   displayFruitDetails(fruits);
   print("\nAfter applying discount of 10%");
-  applyPriceDiscount(fruits);
+  applyPriceDiscount(fruits,10);
   displayFruitDetails(fruits);
 }
