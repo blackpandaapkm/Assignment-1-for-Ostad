@@ -1,17 +1,4 @@
-Output of Assignment
-Student Information:
-Role: Student
-Name: John Doe
-Age: 20
-Address: 123 Main St
-Average Score: 85.7
+Output of Assignment 
+![image](https://github.com/blackpandaapkm/Assignment-1-for-Ostad/assets/97750732/7d61a20a-9b00-46af-a352-237d4e14c55d)
 
-Teacher Information:
-Role: Student
-Name: Mrs. Smith
-Age: 35
-Address: 456 Oak St
-Courses Taught:
-- Math
-- English
-- Bangla
+file location [in bin ](https://github.com/blackpandaapkm/Assignment-1-for-Ostad/blob/main/bin/assignment.dart)https://github.com/blackpandaapkm/Assignment-1-for-Ostad/blob/main/bin/assignment.dart
