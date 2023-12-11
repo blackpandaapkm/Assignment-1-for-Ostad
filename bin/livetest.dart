@@ -33,3 +33,14 @@ void main() {
   applyPriceDiscount(fruits,10);
   displayFruitDetails(fruits);
 }
+
+// Output :
+// Original Fruit Details before Discount:
+// Name: Apple, Color: Red, Price: 2.5
+// Name: Banana, Color: Yellow, Price: 1.0
+// Name: Orange, Color: Orange, Price: 3.0
+//
+// After applying discount of 10%
+// Name: Apple, Color: Red, Price: 2.25
+// Name: Banana, Color: Yellow, Price: 0.9
+// Name: Orange, Color: Orange, Price: 2.7
